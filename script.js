@@ -121,8 +121,6 @@ function render() {
     // Imagem esperada em qrcodes/<rua>-<quadra>.png (minúsculo).
     const img = document.createElement('img');
     img.src = `qrcodes/${codigo.toLowerCase()}.png`;
-    img.width = 220;
-    img.height = 220;
     img.alt = 'QR code ' + codigo;
     img.onerror = () => {
       qrDiv.textContent = 'Imagem não encontrada: qrcodes/' + codigo.toLowerCase() + '.png';

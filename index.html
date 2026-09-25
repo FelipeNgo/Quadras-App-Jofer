@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Ruas e Quadras</title>
-<link rel="icon" type="image/png" href="icons/favicon-16.png" sizes="16x16" />
-<link rel="icon" href="icons/favicon-32.png" sizes="32x32" />
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
-<link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#2B2D42" />
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Ruas e Quadras</title>
+  <link rel="icon" type="image/png" href="icons/favicon-16.png" sizes="16x16" />
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2B2D42" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="app">
-  <header>
-    <button class="back-btn" id="backBtn" style="visibility:hidden">←</button>
-    <h1 id="screenTitle">Ruas</h1>
-  </header>
+  <div class="app">
+    <header class="app-header">
+      <button class="back-btn" id="backBtn" style="visibility:hidden" aria-label="Voltar">←</button>
+      <h1 id="screenTitle">Ruas</h1>
+    </header>
 
-  <!-- Conteúdo de cada tela (ruas/quadras/qrcode) é injetado aqui via script.js -->
-  <main id="mainArea"></main>
+    <!-- Conteúdo injetado via script.js -->
+    <main id="mainArea"></main>
 
-  <p class="note" id="footerNote"></p>
-</div>
+    <p class="note" id="footerNote"></p>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
