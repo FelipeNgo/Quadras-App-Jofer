@@ -1,11 +1,11 @@
 // Estrutura de dados: cada rua define sua própria quantidade/lista de quadras.
 // "quadras" aceita número (gera "01".."N") ou array explícito (numeração não sequencial).
 const RUAS = [
-  { nome: "A", quadras: 12 },
-  { nome: "B", quadras: 8 },
-  { nome: "C", quadras: 20 },
-  { nome: "D", quadras: 15 },
-  { nome: "E", quadras: 6 },
+  { nome: "1", quadras: 12 },
+  { nome: "2", quadras: 8 },
+  { nome: "3", quadras: 20 },
+  { nome: "4", quadras: 15 },
+  { nome: "5", quadras: 6 },
   // { nome: "F", quadras: ["01", "02", "05", "06", "10"] },
 ];
 
