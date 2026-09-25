@@ -36,10 +36,3 @@ tela mostra o caminho esperado em vez de quebrar.
 
 Abrir `index.html` direto no navegador. Não depende de servidor nem de
 conexão com internet.
-
-## Publicar (GitHub Pages)
-
-1. Subir o conteúdo desta pasta para um repositório no GitHub (via VS Code:
-   Source Control → Publish to GitHub).
-2. No repositório: Settings → Pages → Source: Deploy from a branch → main → / (root) → Save.
-3. Link fica em `https://<usuario>.github.io/<repositorio>/`.
